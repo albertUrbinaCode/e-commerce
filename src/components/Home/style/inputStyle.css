@@ -1,0 +1,47 @@
+/*
+<div className=  "search-box">
+<form onSubmit={searchProductSubmit}>
+  <input
+    type="text"
+    id="search"
+    name="search"
+    placeholder="Search Product"
+    value={filterProducts}
+    onChange={(e) => setFilterProducts(e.target.value)}
+  />
+  <button>
+    <i className="fa-solid fa-magnifying-glass"></i>
+  </button>
+</form>
+</div>
+*/
+.search-box{
+  max-width: 1050px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  margin-top: 20px;
+  width: 100%;
+  padding: 0 30px;
+}
+.search-box > input{
+  width: 90%;
+  outline: none;
+  height: 35px;
+  font-size: 16px;
+  font-weight: bold;
+  padding-left: 10px;
+  border: none;
+  border: 1px solid gray;
+}
+.search-box > button{
+  text-align: right;
+  border: none;
+  background-color: var(--secondary-color);
+  color: #3C3C3B;
+  font-size: 16px;
+  height: 35px;
+  width: 10%;
+  text-align: center;
+}
